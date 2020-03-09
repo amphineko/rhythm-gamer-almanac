@@ -1,0 +1,64 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, PingFangTC-Light, 'Microsoft YaHei', '微软雅黑', 'STHeiTi Light', STXihei, '华文细黑', Heiti, '黑体', sans-serif;
+}
+
+#app-main {
+    margin: 0 auto;
+    max-width: 24em;
+}
+
+div.almanac-category {
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,.30), 0 1px 3px 1px rgba(60,64,67,.15);
+}
+
+div.almanac-category h2 {
+    font-size: 1.25em;
+    font-weight: normal;
+    line-height: 2em;
+    margin: 0;
+    padding: 0.5em;
+}
+
+div.almanac-category h2 span.header-dot {
+    border-radius: 50%;
+    display: inline-block;
+    height: 0.8em;
+    margin: 0 0.5em;
+    vertical-align: baseline;
+    width: 0.8em;
+}
+
+div.almanac-category.red h2 span.header-dot {
+    background-color: #C91F37;
+}
+
+div.almanac-item {
+    border-top: 1px solid #dadce0;
+    padding: 1em 1.5em;
+}
+
+div.almanac-item span.content {
+    display: block;
+    font-size: 1.25em;
+    line-height: 1.2em;
+    margin-left: 2.75em;
+}
+
+div.almanac-item span.description {
+    display: block;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    margin-left: 3.82em;
+}
+
+div.almanac-item img.image {
+    border-radius: 50%;
+    box-shadow: 0 0 0.05em 0.1em rgba(0, 0, 0, 0.15);
+
+    float: left;
+    height: 100%;
+    max-height: 2.5em;
+    max-width: 2.5em;
+    object-fit: cover;
+    width: 100%;
+}
